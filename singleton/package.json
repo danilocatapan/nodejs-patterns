@@ -1,0 +1,23 @@
+{
+  "name": "singleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sucrase-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "Danilo Rodrigues Catapan <dcatapan@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/mongodb": "^3.5.25",
+    "@types/node": "^14.0.24",
+    "sucrase": "^3.15.0",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.9"
+  }
+}
