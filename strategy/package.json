@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-strategy",
+  "version": "1.0.0",
+  "description": "Typescript using strategy pattern",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sucrase-node src/index.ts",
+    "test": "jest --no-cache --watchAll"
+  },
+  "keywords": [],
+  "author": "Danilo Rodrigues Catapan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "@types/node": "^14.0.14",
+    "jest": "^26.1.0",
+    "sucrase": "^3.15.0",
+    "ts-jest": "^26.1.1",
+    "typescript": "^3.9.5"
+  }
+}
